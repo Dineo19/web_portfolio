@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #0f172a;
+    color: white;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10%;
+    background: #1e293b;
+    position: fixed;
+    width: 100%;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 150px 10%;
+    min-height: 100vh;
+}
+
+.hero img {
+    width: 300px;
+    border-radius: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #3b82f6;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+section {
+    padding: 100px 10%;
+}
+
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+}
+
+.skill-card {
+    background: #1e293b;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.project-card {
+    background: #1e293b;
+    padding: 20px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+
+.project-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #1e293b;
+}
