@@ -71,6 +71,12 @@ nav ul li a:hover::after{
   width:100%;
 }
 
+/*logo img*/
+.logo-img img{
+  width:26px;
+  border-radius:1px;
+}
+
 /* HERO */
 .hero{
   display:flex;
