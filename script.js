@@ -30,3 +30,14 @@ form.addEventListener("submit", function(e){
     btn.disabled = false;
   });
 });
+
+// FADE-IN ANIMATION
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if(entry.isIntersecting){
+      entry.target.classList.add("show");
+    }
+  });
+});
+
+document.querySelectorAll(".fade-up").forEach(el => observer.observe(el));
