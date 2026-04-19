@@ -81,10 +81,10 @@ nav ul li a:hover::after{
 
 /*logo img*/
 .logo-img img{
-  width:100%;
-  height:100%;
+  width:10%;
+  height:10%;
   object-fit:cover;
-  border-radius:80%;
+  border-radius:100%;
   display:block;
 }
 
