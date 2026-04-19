@@ -81,8 +81,8 @@ nav ul li a:hover::after{
 
 /*logo img*/
 .logo-img img{
-  width:10;
-  height:10;
+  width:1;
+  height:1;
   object-fit:cover;
   border-radius:10%;
   display:block;
