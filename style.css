@@ -34,7 +34,7 @@ p{
 /* NAV */
 nav{
   display:flex;
-  justify-content:space-between;
+  justify-content:flex-start;
   align-items:center;
   padding:20px 12%;
   background:#f5f3ef;
@@ -43,6 +43,14 @@ nav{
   top:0;
   border-bottom:1px solid #e6e2dc;
   z-index:1000;
+}
+
+nav ul{
+  margin-left:auto;
+}
+
+.logo-img{
+  margin-right:1cm;
 }
 
 nav ul li{
