@@ -73,8 +73,11 @@ nav ul li a:hover::after{
 
 /*logo img*/
 .logo-img img{
-  width:2%;
-  border-radius:1%;
+  width:2rem;
+  height:2rem;
+  object-fit:cover;
+  border-radius:50%;
+  display:block;
 }
 
 /* HERO */
