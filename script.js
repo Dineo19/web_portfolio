@@ -17,7 +17,7 @@ form.addEventListener("submit", function(e){
   })
   .then(response => {
     success.style.color = "#22c55e";
-    success.textContent = "✔ Message sent successfully!";
+    success.textContent = "Message sent successfully!";
     form.reset();
     btn.textContent = "Send Message";
     btn.disabled = false;
@@ -25,7 +25,7 @@ form.addEventListener("submit", function(e){
   })
   .catch(error => {
     success.style.color = "#ef4444";
-    success.textContent = "❌ Error sending message. Please try again.";
+    success.textContent = "Error sending message. Please try again.";
     btn.textContent = "Send Message";
     btn.disabled = false;
   });
